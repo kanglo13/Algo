@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @create 2021-09-2021/9/7 23:10
  */
 public class MaxEnvelopes {
-    int pre = Long.M
+    int pre = 0;
     public int maxEnvelopes(int[][]envelopes){
         Arrays.sort(envelopes,(o1, o2) -> o1[0] == o2[0] ? o1[1] - o2[1] : o1[0]-o2[0]);
         int n = envelopes.length;
