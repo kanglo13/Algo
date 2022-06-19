@@ -6,6 +6,6 @@ package SlidingWindow;
  */
 public class FindMaxAverage {
     public double findMaxAverage(int[]nums,int k){
-        
+        return 0;
     }
 }

@@ -23,6 +23,6 @@ public class SubArrayRanges {
         return res;
     }
     public long subArrayRangesI(int[]nums){
-
+        return 0;
     }
 }
