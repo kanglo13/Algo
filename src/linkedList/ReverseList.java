@@ -8,6 +8,6 @@ import ref.ListNode;
  */
 public class ReverseList {
     public ListNode reverseList(ListNode head){
-
+        return new ListNode(-1);
     }
 }
